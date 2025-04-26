@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <script src="ELEMENTS/JAVASCRIPT/formvalid.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="ELEMENTS/CSS/formvalidation.css">
+</head>
+
+<body>
+    <h1 class="header">🎇Google Form🎇</h1>
+    <section class="informatin">
+        <div class="div">
+            <h2>Contact Information</h2>
+            <i class="fa-solid fa-bold"></i>
+            <i class="fa-solid fa-underline"></i>
+            <i class="fa-solid fa-paperclip"></i>
+        </div>
+        <div class="line"></div>
+        <br>
+        <input type="text" placeholder="Form Description...." class="first_input" id="infor" required>
+    </section>
+
+    <section class="informatin">
+        <h3>Enter Your Full Name:-</h3>
+        <input type="text" placeholder="Enter Your Full Name...." class="first2_input" id="name">
+    </section>
+
+    <section class="informatin">
+        <h3>Enter Your Full Email:-</h3>
+        <input type="Email" placeholder="Enter Your Email...." class="first2_input" id="email">
+    </section>
+
+    <section class="informatin">
+        <h3>Enter Your Full Address:-</h3>
+        <input type="text" placeholder="Enter Your Full Address...." class="first2_input" id="addrsss">
+    </section>
+
+    <section class="informatin">
+        <h3>Enter Your Phone Number:-</h3>
+        <input type="number" placeholder="Enter Your Phone Number...." class="first2_input" id="number">
+    </section>
+
+    <section class="informatin">
+        <h3>Enter Your Password:-</h3>
+        <input type="password" placeholder="Enter Your Password...." class="first2_input" id="password">
+        <input type="checkbox" class="check" id="check" onclick="checkbox()"> Show The Password
+    </section>
+
+    <section class="informatin">
+        <h3>Whats Your Comments:-</h3>
+        <textarea cols="137" rows="3" placeholder="Comments...." class="textarea" required></textarea>
+    </section>
+
+    <section class="button">
+        <button class="submit" id="button" onclick="clickhere()">Sumbit The Form</button>
+    </section>
+</body>
+
+</html>
