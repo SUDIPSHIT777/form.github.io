@@ -6,6 +6,7 @@ function clickhere() {
   let p = document.getElementById("password").value;
   let i = document.getElementById("infor").value;
   let info = document.querySelector('#infor').value;
+
   let print = document.getElementById('print');
 
    if(n === "" ||e=== ""||a===""||nu===""||p===""||i==="" || info === ""){
@@ -29,7 +30,7 @@ function clickhere() {
    else if(!/^[a-z A-Z]+[^\s]+$/.test(p)){
     alert('Fill A Strong Password');
    }
-   else if(!/^[a-z A-Z 0-9]+$/.test(info)){
+   else if(!/^[a-z A-Z 0-9 .:;_]+$/.test(info)){
       alert('Contact Information Field Should Be Text');
    }
    else{
