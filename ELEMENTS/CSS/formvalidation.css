@@ -71,3 +71,33 @@ body{
 .check{
     margin-top: 1%;
 }
+.print{
+    width: 90%;
+    margin: auto;
+    background-color: #ccc;
+}
+
+@media (max-width:700px){
+    *{
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .informatin{
+        margin-top: 2%;
+        font-size: 12px;
+        height: 14vh;
+    }
+    .textarea{
+        width: 100%;
+        height: 70%;
+    }
+    .first2_input{
+        font-size: 10px;
+    }
+    .first_input{
+        font-size: 10px;
+    }
+    .submit{
+        padding: 10px;
+    }
+}
